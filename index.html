@@ -1,33 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>About | Patrick</title>
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-        crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-
-    <title>Patrick</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Pat B</title>
 </head>
 
 <body>
-    <div class="nav container">
-        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-sm navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
 
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" class="topnav">
+        <a class="navbar-brand" href="#">Pat B</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+
+            <span class="navbar-text" class="link-options">
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -36,61 +44,47 @@
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
-        </nav>
 
+            </span>
+        </div>
+    </nav>
 
-
-    </div>
-    <section class="main-section">
-
-
-        <div class="container">
+    <!--About Me-->
+    <div class="container" id="about">
+        <div class="card" style=margin-top:50px;background-color:rgba(117,190,218,0.7);>
             <div class="row">
-                <div class="col- col-lg-12 col-md-12 col-sm-12">
-                    <h1>About Me</h1>
-                    <img style="-webkit-user-select: none;" src="http://lorempixel.com/400/200/sports/" class="auth-image"
-                        alt="Your Name">
+                <div class="col-sm-12, col-md-12, col-lg-12">
+                    <h2
+                        style="margin-left:20px;margin-top:20px;color: white;font-family: Georgia, 'Times New Roman', Times, serif;font-weight: 700">
+                        About
+                        Me
+                    </h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12, col-md-4" id="picDiv">
+                    <img src="assets/images/Headshot.jpg" height= 400px; width= 400px;
+                    alt="headshot image" class="headshot">
+                </div>
+                <div class="col-sm-12">
+                    <div style="color: black;margin-left:20px;margin-top:10px;">
+                        <p style=font-size:18px;> My Name is Patrick and I am very excited to add
+                            software developing to my skill set! I am currently completing a FullStack Boot Camp
+                             at the University of Minnesota Minneapolis, MN.</p>
+                        <p style=font-size:18px;> To see more about what I've been learning or projects I have completed
+                            click on the link below to my Github page or the "Portfolio Tab" above.</p>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac
-                        rhoncus nunc
-                        porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel
-                        dui massa.
-                        Nunc
-                        rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae
-                        sollicitudin
-                        consectetur.</p>
+                        <a href="https://github.com/mrpatblack7/"><strong>My Github Page</strong></a>
+
+                    </div>
 
                 </div>
-
             </div>
-
-            <div class="row">
-                <div class="col- col-lg-12 col-md-12 col-sm-12">
-                    <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium
-                        odio. Nunc id eros
-                        iaculis, pulvinar quam eget, egestas mauris.</p>
-
-                    <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas
-                        nibh tortor et mi.
-                        Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                </div>
-
-            </div>
-
         </div>
 
-    </section>
 
-    <footer>
-        <div class="footer">
-            Copyright &copy;
-        </div>
-    </footer>
+
 </body>
 
 </html>

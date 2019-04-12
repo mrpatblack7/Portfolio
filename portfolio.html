@@ -1,106 +1,186 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Portfolio | Patrick</title>
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-        crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-
-    <title>Hello, world!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   
+    <title>Pat B</title>
 </head>
 
 <body>
-    <div class="nav container">
-        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-sm navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
 
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Pat B</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+
+            <span class="navbar-text" class="link-options">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+
+            </span>
+        </div>
+    </nav>
+    <!-- Portfolio-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1">
             </div>
-        </nav>
-
-        <section class="main-section">
-            <div id="main-container" class="container">
-                <section class="main-section">
-                    <h1>Portfolio</h1>
-
+            <div class="col-md-10">
+                <div class="card" style=margin-top:50px;background-color:rgba(117,190,218,0.7);>
                     <div class="row">
+                        <div class="col-md-6">
+                            <div class="card" style="width: 18rem;margin-left: 20%;padding:10px;">
+                                <img src="assets/images/thumbnail_pic.png" class="card-img-top" alt="Crystal Collector">
+                                <div class="card-body">
+                                    <a class="card-text" href="https://mrpatblack7.github.io/unit-4-game/">Crystals Collector
+                                        </a>
+                                    <br>
+                                    <a class="card-text" href="https://mrpatblack7.github.io/unit-4-game/">Github Page</a>
 
-                        <div class="work">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <img style="-webkit-user-select: none;" src="http://lorempixel.com/400/200/sports/">
-                                <h3>Word Guess</h3>
+                                </div>
                             </div>
+
                         </div>
+                        <div class="col-md-6">
+                            <div class="card" style="width: 18rem;margin-left: 20%;padding:10px;">
+                                <img src="assets/images/thumbnail_pic1.png" class="card-img-top" alt="Trivia Game">
+                                <div class="card-body">
+                                    <a class="card-text" href="https://mrpatblack7.github.io/TriviaGame/">G.O.T Trivia
+                                        Game</a>
+                                    <br>
+                                    <a class="card-text" href="https://github.com/mrpatblack7/TriviaGame">Github Page</a>
 
-                        <div class="work">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <img style="-webkit-user-select: none;" src="http://lorempixel.com/400/200/sports/">
-                                <h3>RPG Game</h3>
+                                </div>
                             </div>
+
                         </div>
-                        <!--Breaking columns to a new line in flexbox requires a small hack: add an element with width: 100% wherever you want to wrap your columns to a new line.-->
-                        <div class="w-100 d-none d-lg-block d-md-block d-sm-block"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card" style="width: 18rem;margin-left: 20%;padding:10px;">
+                                <img src="assets/images/thumbnail_pic2.png" class="card-img-top" alt="Word Guess Game">
+                                <div class="card-body">
+                                    <a class="card-text" href="https://mrpatblack7.github.io/Train-Scheduler/">Train-Scheduler
+                                        Game</a>
+                                    <br>
+                                    <a class="card-text" href="https://github.com/mrpatblack7/Train-Scheduler">Github
+                                        Page</a>
 
-                        <div class="work">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <img style="-webkit-user-select: none;" src="http://lorempixel.com/400/200/sports/">
-                                <h3>Trivia Game</h3>
+                                </div>
                             </div>
+
                         </div>
+                        <div class="col-md-6">
+                            <div class="card" style="width: 18rem;margin-left: 20%;padding:10px;">
+                                <img src="#" class="card-img-top" alt="Crystal Collector Game">
+                                <div class="card-body">
+                                    <a class="card-text" href="#"># Coming Soon
+                                        </a>
+                                    <br>
+                                    <a class="card-text" href="https://github.com/mrpatblack7/GifTastic">Github Page</a>
 
-                        <div class="work">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <img style="-webkit-user-select: none;" src="http://lorempixel.com/400/200/sports/">
-                                <h3>Rutgers Info Widget</h3>
+                                </div>
                             </div>
-                        </div>
-                        <!--Breaking columns to a new line in flexbox requires a small hack: add an element with width: 100% wherever you want to wrap your columns to a new line.-->
-                        <div class="w-100 d-none d-lg-block d-md-block d-sm-block"></div>
 
-                        <div class="work">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <img style="-webkit-user-select: none;" src="http://lorempixel.com/400/200/sports/">
-                                <h3>Rock Paper Scissors</h3>
-                            </div>
                         </div>
                     </div>
 
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card" style="width: 18rem;margin-left: 20%;padding:10px;">
+                                <img src="assets/images/thumbnail_pic3.png" class="card-img-top" alt="GifTastic">
+                                <div class="card-body">
+                                    <a class="card-text" href="https://mrpatblack7.github.io/GifTastic/">GifTastic!</a>
+                                    <br>
+                                    <a class="card-text" href="https://github.com/mrpatblack7/GifTastic">Github Page</a>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card" style="width: 18rem;margin-left: 20%;padding:10px;">
+                                <img src="#Coming Soon" class="card-img-top"
+                                    alt="#Coming Soon">
+                                <div class="card-body">
+                                    <a class="card-text" href="#Coming Soon">#Coming Soon
+                                        </a>
+                                    <br>
+                                    <a class="card-text" href="#Coming Soon">Github
+                                        Page</a>
+
+                                </div>
+                            </div>
+
+                        </div>
 
 
+                    </div>
 
-                </section>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card" style="width: 18rem;margin-left: 20%;padding:10px;">
+                                <img src="#Coming Soon" class="card-img-top" alt="#Coming Soon">
+                                <div class="card-body">
+                                    <a class="card-text"
+                                        href="#Coming Soon">#Coming Soon
+                                        </a>
+                                    <br>
+                                    <a class="card-text" href="#Coming Soon">Github
+                                        Page</a>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card" style="width: 18rem;margin-left: 20%;padding:10px;">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
             </div>
 
-            <footer>
-                <div class="footer">
-                    Copyright &copy;
-                </div>
-            </footer>
+        </div>
+    </div>
+    <div class="col-md-1">
+    </div>
+    </div>
+
+
+
 </body>
 
 </html>
