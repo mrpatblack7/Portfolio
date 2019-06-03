@@ -1,16 +1,20 @@
 body {
-  background-image: url(../images/Background.jpg);
+  background-image: url(../assets/images/twoRoads.jpg);
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  color: #777777;
-  background-size: 100%;
+  background-size: 115%;
 }
-
+#about {
+  background-color:#ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
 .link-options {
   float: left;
 }
 .headshot{
   float:left;
-  height: 150px;
+  height: 100px;
   width:auto;
   margin-left: 20px;
 }
@@ -27,3 +31,5 @@ body {
   margin-left: 40%;
   margin-right: 40%;
 }
+
+
