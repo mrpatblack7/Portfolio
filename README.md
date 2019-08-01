@@ -1,14 +1,17 @@
 # Portfolio 
 by Pat
 
-#Technology
-#HTML, CSS, Bootstrap, JavaScript, jquery
-#Live demo: #
-#
+# Technology
+# HTML, CSS, Bootstrap, JavaScript, jquery
+# Live demo: 
+# https://mrpatblack7.github.io/Portfolio/
 <img width="559" alt="Screen Shot 2019-07-25 at 11 55 13 PM" src="https://user-images.githubusercontent.com/45779399/61926787-bb2f1d80-af37-11e9-8b5c-35b2f4a5d616.png">
 
 #About:
 This is my professional portfolio.
+
+
+
 
 
 # [Start Bootstrap - Scrolling Nav](https://startbootstrap.com/template-overviews/scrolling-nav/)
